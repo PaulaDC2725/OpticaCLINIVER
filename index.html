@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PAGINA DE INICIO: CLINIVER </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/ESTILO_PROYECTO_PAULA.css">
+
+<link rel="stylesheet" href="bs/3.3.1/bootstrap.min.css">
+<script src="js/jquery-3.3.1.slim.min.js" ></script>
+<script src="bs/3.3.1/popper.min.js" ></script>
+<script src="bs/3.3.1/bootstrap.min.js" ></script>
+
+</head>
+<body>
+  <body>
+    <!-- Este es el DIV que muestra el logo de la óptica en la parte de arriba de la página -->
+	<div id="div_header" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">		
+		<img src="./css/imagenes/fondo_cut.png"/>			
+	</div>
+  <!---->
+  <!--este div es que titulo que quiero mostrar pero fuera del contenedor del cada uno de los diferentes div que hay, uno que da la información de la óptica y el otro que da las opciones para ingresar y/o registrarse que voy a utilizar-->
+  <div class="login__top">
+      <h2 class="login__title"> PAGINA INICIO</h2>
+    </div>
+    <!---->
+    <!--Aquí creé un div con bootstrap y clase container para mostrar la información promocional de CLINIVER-->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+     <h3>Óptica CLINIVER</h3>
+<h4> La óptica CLINIVER, te asegura una mejor atención y satisfacción al momento de recibir sus servicios.
+  <br>
+Con la mayor efectividad, atendiendo y así mismo entregando resultados y lentes deseados.</h4>
+<br>
+<br>
+<h6>Ubicados en: Bogotá D.C Cra.21 No.26A-18 Sur</h6>
+      </div>   
+      <!---->
+      <!--Aquí creé con clases de bootstrap un menu despegable que me diera las opciones de registrame, niciar sesion y que me muestre mas información sobre la óptica-->
+      <div class="col col-xs-2 col-sm-6 col-md-7 col-lg-3"> <!--esto es para acomodar con bootstrap como se verá en las demas versiones de navegador, teniendo encuenta que como referencia se tienen 12 columnas y se pueden distribuir entre estas-->
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Más Información:
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item"><b>Teléfono: </b>239-0662</a>
+              <a class="dropdown-item"><b>Celular: </b>320-304-4805</a>
+              <a class="dropdown-item"><b>Correo: </b>elsaalayon2302@gmail.com</a>
+            </div>                
+        </div>
+         </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-1">
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ingresar
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="contenido/login/login_cliniver_medico.html">Medico</a>
+              <a class="dropdown-item" href="contenido/login/login_cliniver_secretaria.html">Secretaria</a>
+              <a class="dropdown-item" href="contenido/login/login_cliniver_paciente.html">Paciente</a>
+            </div> 
+            </div>
+            </div>    
+          </div>
+    </div>
+  </div>
+  <br>
+	<!-- Este es el DIV que muestra el logo de la óptica en la parte de abajo de la página -->
+  <div id="div_footer" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">		
+		<img src="./css/imagenes/fondo_cut.png"/>
+	</div>
+  <!---->
+</body>
+</html>

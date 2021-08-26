@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONSULTAR RESULTADOS (PACIENTE)</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="../../../css/style.css">
+  <!--aqui llamé la referencia del estilo de bootstrap que implementé-->
+  <script src="../../../js/jquery-3.3.1.slim.min.js" ></script>
+  <link rel="stylesheet" href="../../../bs/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="../../../bs/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="../../../bs/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="div_header">		
+		<img src="../../../css/imagenes/fondo_cut.png"/>
+  </div>	
+  <div id="header">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../pag_principal/pagina_principal_paciente.html">INICIO</a>
+    </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestionar citas<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href="../agendar/ag_cit.html">Agendar Cita</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="../consulta/cons_cit.html">Consultar Cita</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="../cancelar/canc_cita.html">Cancelar Cita</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestionar historia clínica<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href="../consulta/con_his_cli1.html">Consultar historia clínica</a>
+        </li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestionar laboratorios<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li>
+         <a href="../consulta/cons_res_lab1.html">Consultar resultados de laboratorio
+         </a>
+          </li>
+      </li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
+	<h2 class="login__title">CONSULTAR RESULTADOS DE LABORATORIO</h2>
+	<form action="../../php/info/info_cons_res_lab1.php" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6 col-lg-6">
+      <label for="inputEmail4">NOMBRE</label>
+      <input required type="text" type="name" class="form-control" id="inputEmail4" name="inputEmail4" placeholder="Ingresa el nombre">
+    </div>
+    <div class="form-group col-md-6 col-lg-6">
+      <label for="inputPassword4">APELLIDO</label>
+      <input required type="text" type="name" class="form-control" id="inputPassword4" name="inputPassword4" placeholder="Ingrese el Apellido">
+    </div>
+    <div class="form-group col-md-6 col-lg-6">
+      <label for="inputEmail4">NOMBRE DE USUARIO</label>
+      <input required type="text" type="name" class="form-control" id="Usu" name="usu" placeholder="Ingresa el nombre">
+    </div>
+  </div>
+  <div class="form-group col-md-6 col-lg-6">
+    <label for="inputAddress">Dirección</label>
+    <input required type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Ingrese la Dirección">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4 col-lg-4 col-sm-4">
+      <label for="inputCity">Ciudad</label>
+      <input required type="text" class="form-control" id="inputCity" name="inputCity" placeholder="ingrese su Ciudad">
+    </div>
+    <div class="form-group col-md-4 col-lg-4">
+      <label for="inputState">Estrato</label>
+      <select required type="option" id="inputState" name="inputState" class="form-control">
+        <option selected value="Seleccione su estrato" disabled>Seleccione su estrato</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4 col-lg-4 col-sm-4">
+    <label for="inputAddress2">Solicitud</label>
+    <textarea  class="form-control" rows="3" placeholder="Ingrese lo necesitado" id="inputsoli" name="inputsoli"></textarea>
+  </div>
+</div>
+  <div id="footer">
+    <button type="submit" class="btn btn-success">Completar
+    </button>
+   
+  </div>
+</form>
+     <div id="div_footer">    
+    <img src="../../../css/imagenes/fondo_cut.png"/>
+  </div>
+</body>
+</html>

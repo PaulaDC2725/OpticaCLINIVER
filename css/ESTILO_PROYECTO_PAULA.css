@@ -1,0 +1,297 @@
+body {
+ background-color: #FFFFFF;
+}
+input[type="button" i] , [type="submit" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    color: #000cff;
+    background-color: #e4e8e5;
+    padding-right: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    font-size: 20px;
+}
+input {
+      word-spacing: normal;
+    text-transform: initial;
+    text-indent: 10px;
+    text-shadow: initial;
+    display: inline-block;
+    text-align: start;
+    background-color: #dbd6cf;
+    margin: 0em;
+    font: 100 25.3333px Time news roman;
+    padding: 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: #e0ded7;
+    border-image: initial;
+}
+select {
+text-rendering: auto;
+    color: #747474;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: menulist;
+    box-sizing: content-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: #dbd6cf;
+    cursor: default;
+    margin: 0em;
+    font: 50 20.3333px time news roman;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: inset;
+    border-color: rgb(140, 139, 133);
+    border-image: 100%;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+}
+a-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#div_header,#div_footer{
+	background-color: #32b8c6c9;
+}
+
+#div_header>img,#div_footer>img{
+	margin: auto;    
+    display: block;
+    width: 600px;
+}
+
+div.login__container {
+	background: center;
+	width: 100%;
+    text-align: center;
+    display: block;    
+}
+
+.login__title{
+	text-align: center;
+}
+.register__title{
+  text-align: center;
+}
+h3{
+  color: #226242;
+  text-align: left;
+}
+h2.validar_title{
+  text-align: center;
+  color: #226242;
+  text-align: left;
+     padding: 0px;
+}
+
+label.validar{ size: 10px;
+    color: #23abbd ;
+    text-align: center;
+
+}
+
+div.formularioregistro{ 
+	text-align: center;
+}
+p#REGISTRATE { font-family: Times new Roman;
+	color: #22BFF1;
+font-size: 50px;
+}
+h2{
+  color: #226242;
+  text-align: left;
+}
+h4{color: #FF0000;
+  text-align: center;
+}
+.login__container {
+	color: #2EBDEB;
+}
+label.informaciónderegistro {
+    font-size: 20px;
+    font-weight: 1000;
+    color: #226242;
+  }
+form.login__form{ 
+    font-family: "Times New Roman";
+    font-size: 15px;
+    color: #e1e0dd7d;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    border: solid;
+    border-color: #39c0cd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #e1e0dd7d;
+}
+button{ -webkit-appearance: push-button;
+    user-select: none;
+    color: #000cff;
+    background-color: #e4e8e5;
+    padding-right: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkgrey;
+    font-size: 20px;
+
+}
+.volver {
+    background: #e4e8e5;
+    color: #000cff;
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+    align-content: normal;
+}
+
+h2 {
+        display: block;
+    font-size: 1.6em;
+    font-weight: 1000;
+}
+h5{       font-family: "Times New Roman";
+    color: #000CFF;
+    display: block;
+    font-size: 18px;
+    margin-block-start: 1.5em;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    font-weight: 900;
+  }
+b {
+    font-weight: 1000;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+form.login1{font-family: sans-serif "Times New Roman";
+	font-size: 15px;
+	color: #000CFF;}
+
+* {    margin: 2px;
+    padding: 0px;
+}
+    
+#header {      margin: auto;
+    width: auto;
+    font-family: time news roman;
+}
+   
+ul{    display: block;
+    list-style-type: none;
+}
+      
+.nav > li {    
+  width: 50%;
+     font-size: 18px;
+  text-align: center;
+  margin: auto;
+  }
+      
+.nav li a{
+    background-color: #c7c1b7;
+    color: #070e12;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+  }    
+
+      
+.nav li a:hover {background-color:#434343;
+}
+      
+.nav li ul {display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display:none;
+        position:absolute;
+        min-width:140px;
+      
+}
+      
+.nav li:hover > ul {display:block;
+  margin: 0px;
+    padding: 0px
+      }
+      
+.nav li ul li {position:relative;
+ 
+}
+      
+.nav li ul li ul {right:-140px;
+        top:0px;
+}
+.nav ul li a{ background-color: #ded9d2;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+
+}
+
+.alineado{
+    display: inline-block;
+    vertical-align: top;    
+}
+
+.divFormulario{
+    width: 30%;
+}
+
+.divInformacion{
+    width: 67%;
+    text-align: left;
+
+    border-right: solid;
+    border-color: #39c0cd;        
+}
+
+.divFormulario>form{
+    font-family: "Times New Roman";
+    font-size: 15px;
+    color: #000CFF;
+    text-align: center;
+    width: 56%;
+    margin: auto;    
+    background: #e0ded7;
+}
+
+.validar_title_min{
+    font-family: "Times New Roman";
+    color: #000CFF;    
+    font-size: 18px;
+    margin-block-start: 1.5em;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    font-weight: 900;
+}
+h4, h4 {
+    font-size: 1.5rem;
+    color: #337f80;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+    color: #a65846;
+    text-align: center;
+}
+.h6, h6 {
+    font-size: 125%;
+    color: #1696ba;
+}
